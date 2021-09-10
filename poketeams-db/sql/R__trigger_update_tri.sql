@@ -1,0 +1,2 @@
+CREATE TRIGGER trigger_update BEFORE UPDATE ON teams
+FOR EACH ROW EXECUTE PROCEDURE update_timestamp();
